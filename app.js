@@ -27,5 +27,5 @@ btnEL.addEventListener("click", async () => {
 function displayLyrics(lyrics) {
   const verses = lyrics.split("\n");
   const portion = verses.slice(0, 10);
-  lyricsEL.innerText = portion;
+  lyricsEL.innerText = portion.join("\n");
 }
